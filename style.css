@@ -1,0 +1,48 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+/*Header time*/
+#head
+{
+    display: flex;
+}
+#head h2
+{
+  font-size: 1.8rem;
+  padding-left: 20px;
+  color: blueviolet;
+  font-family: 'Lily Script One', cursive;
+}
+
+#head a
+{
+    padding-right: 20px;
+    padding-top: 25px;
+}
+
+#head .login
+{
+    color: black;
+    padding-left: 950px;
+}
+
+#head .signup
+{
+    color: white;
+    background-color: blueviolet;
+
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*body time*/
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
