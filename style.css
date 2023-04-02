@@ -11,10 +11,13 @@
 #head
 {
     display: flex;
+    margin-top: 20px;
+    padding-top: 20px;
 }
 #head h2
 {
-  font-size: 1.8rem;
+    margin-top: -10px;
+  font-size: 1.5rem;
   padding-left: 20px;
   color: blueviolet;
   font-family: 'Lily Script One', cursive;
@@ -23,22 +26,23 @@
 #head a
 {
     padding-right: 20px;
-    padding-top: 25px;
+    margin-top: 20px;
 }
 
-#head .login
+
+.login
 {
     color: black;
     padding-left: 950px;
 }
 
-#head .signup
+.signup
 {
     color: white;
     background-color: #8a2be2;
-
     text-align: center;
-    margin: 0 auto;
+    padding: 8px 16px;
+    border-radius: 20px;
 }
 
 /*body time*/
@@ -63,4 +67,33 @@ table
     width: 500px;
     border-radius: 15px;
     border:#d4d4d4 solid 5px;
+}
+/*what we have for you*/
+.help
+{
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+.img3
+{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+.img4
+{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+.img5
+{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+.box2 p{
+    text-align: center;
 }
